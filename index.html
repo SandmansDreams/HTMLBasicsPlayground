@@ -11,16 +11,17 @@
   <script src="demo.js" defer></script>
 </head>
 
-<body>
+<body style="background: rgb(47, 47, 47); color: white">
   <header>
     <p><small>JAS-101 / JAS-102 • Week 2 • HTML Crash Course</small></p>
-    <h1>HTML Crash Course Lab</h1>
+    <h1>HTML Page But Edited</h1>
     <p><strong>Applied example:</strong> Structuring a portfolio and LP position interface</p>
 
     <nav aria-label="Page sections">
       <a href="#lesson">1. Information</a> |
       <a href="#demo">2. Live demo</a> |
       <a href="#exercises">3. Exercises</a> |
+      <a href="#reflection">4. Reflection</a> |
       <a href="#summary">Summary</a>
     </nav>
     <hr>
@@ -219,6 +220,13 @@ opening       attribute          content       closing
               <td>$4,100</td>
               <td>$3,210</td>
               <td>Below range</td>
+            </tr>
+            <tr>
+              <th scope="row"><data value="LP-200">LP-200</data></th>
+              <td>$5,450</td>
+              <td>$6,100</td>
+              <td>$1,210</td>
+              <td>Above range</td>
             </tr>
           </tbody>
         </table>
@@ -505,9 +513,30 @@ opening       attribute          content       closing
           fictional student to add or reorganize HTML elements.
         </p>
       </details>
+
+      <details>
+        <summary><strong>Post-final extension — Put the reflection into a details element</strong></summary>
+        <p>
+          Encapsulate the summary into a details section so that it can be expanded if a reader wants to read it. 
+        </p>
+      </details>
     </section>
 
     <hr>
+
+    <section id="reflection" aria-labelledby="reflection-heading">
+      <header>
+        <h2 id="reflection-heading">Student Reflection</h2>
+      </header>
+      <p>
+        I already knew a bit about HTML, but there were some things on this page that I was not aware of. One of those things is the structure of an HTML element. I did not know what tags or attributes were called, I had thought of them but never actually considered that there might be names for those things.
+        <ol>
+          <li>Structure of an HTML Element</li>
+          <li>Additional elements such as <code>&lt;fieldset&gt;</code> and <code>&lt;details&gt;</code></li>
+          <li>That you can put an HTML demo renderer inside of HTML</li>
+        </ol>
+      </p>
+    </section>
 
     <section id="summary" aria-labelledby="summary-heading">
       <header>
